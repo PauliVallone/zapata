@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: letrajuegazapata;
+  src: url(../Inversionz.ttf);
+}
+
+body {
+  background-color: white;
+  color: white;
+  font-family: letrajuegazapata;
+}
+
+.video-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#video-laser {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-85%, -50%);
+}
+.title {
+  font-size: 40px;
+  text-align: center;
+  grid-area: titulo;
+}
+
+.equipo1 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo1;
+}
+.equipo2 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo2;
+}
+.equipo3 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo3;
+}
+.equipo4 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo4;
+}
+.equipo5 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo5;
+}
+.equipo6 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo6;
+}
+.equipo7 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo7;
+}
+.equipo8 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo8;
+}
+.octavo1 {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  grid-area: octavo1;
+}
+.octavo2 {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  grid-area: octavo2;
+}
+.octavo3 {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  grid-area: octavo3;
+}
+.octavo4 {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  grid-area: octavo4;
+}
+.cuarto1 {
+  margin-top: 140px;
+  position: relative;
+  display: inline-block;
+  grid-area: cuarto1;
+}
+.cuarto2 {
+  margin-top: 140px;
+  position: relative;
+  display: inline-block;
+  grid-area: cuarto2;
+}
+.semi1 {
+  margin-top: 300px;
+  position: relative;
+  display: inline-block;
+  grid-area: semi1;
+}
+.equipo9 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo9;
+}
+.equipo10 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo10;
+}
+.equipo11 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo11;
+}
+.equipo12 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo12;
+}
+.equipo13 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo13;
+}
+.equipo14 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo14;
+}
+.equipo15 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo15;
+}
+.equipo16 {
+  position: relative;
+  display: inline-block;
+  grid-area: equipo16;
+}
+.octavo5 {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  grid-area: octavo5;
+}
+.octavo6 {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  grid-area: octavo6;
+}
+.octavo7 {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  grid-area: octavo7;
+}
+.octavo8 {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  grid-area: octavo8;
+}
+.cuarto3 {
+  margin-top: 140px;
+
+  position: relative;
+  display: inline-block;
+  grid-area: cuarto3;
+}
+.cuarto4 {
+  margin-top: 140px;
+
+  position: relative;
+  display: inline-block;
+  grid-area: cuarto4;
+}
+.semi2 {
+  margin-top: 300px;
+  position: relative;
+  display: inline-block;
+  grid-area: semi2;
+}
+.fixture-container {
+  padding: 10px;
+  height: 100vh;
+  width: 100vh;
+  display: grid;
+
+  grid-template-rows: 10px, repeat(8, 1fr);
+  grid-template-columns: 150px 130px 130px 130px 130px 130px 130px 130px 150px;
+  grid-template-areas:
+    "titulo titulo titulo titulo titulo titulo titulo titulo titulo"
+    "equipo1 octavo1 cuarto1 semi1 ganador semi2 cuarto3 octavo5 equipo9"
+    "equipo2 octavo1 cuarto1 semi1 ganador semi2 cuarto3 octavo5 equipo10"
+    "equipo3 octavo2 cuarto1 semi1 ganador semi2 cuarto3 octavo6 equipo11"
+    "equipo4 octavo2 cuarto1 semi1 ganador semi2 cuarto3 octavo6 equipo12"
+    "equipo5 octavo3 cuarto2 semi1 ganador semi2 cuarto4 octavo7 equipo13"
+    "equipo6 octavo3 cuarto2 semi1 ganador semi2 cuarto4 octavo7 equipo14"
+    "equipo7 octavo4 cuarto2 semi1 ganador semi2 cuarto4 octavo8 equipo15"
+    "equipo8 octavo4 cuarto2 semi1 ganador semi2 cuarto4 octavo8 equipo16";
+}
+
+.fixture-nombre {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 35px;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.fixture-nombre-octavo {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 31px;
+  box-sizing: border-box;
+  margin-left: 35px;
+  margin-top: 11px;
+  font-size: 16px;
+}
+
+.fixture-nombre-cuarto {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 35px;
+  margin-top: 18px;
+  font-size: 16px;
+}
+.fixture-nombre-semi {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 36px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.fixture-nombre-azul {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.fixture-nombre-octavo-azul {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.fixture-nombre-cuarto-azul {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 21px;
+  font-size: 16px;
+}
+.fixture-nombre-semi-azul {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 23px;
+  margin-top: 18px;
+  font-size: 16px;
+}
