@@ -16,7 +16,6 @@ body {
 
 .title {
   font-family: letrajuegazapata;
-  font-size: 20px;
 }
 
 .video-fondo {
@@ -37,7 +36,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-65%, -50%);
+  transform: translate(-68%, -50%);
 }
 .title {
   font-size: 40px;
