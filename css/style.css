@@ -32,7 +32,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-55%, -50%);
+  transform: translate(-65%, -50%);
 }
 .title {
   font-size: 40px;
@@ -87,133 +87,138 @@ body {
 }
 .equipo8 {
   margin-top: 20px;
-
   position: relative;
   display: inline-block;
   grid-area: equipo8;
 }
 .octavo1 {
-  margin-top: 80px;
+  margin-top: 90px;
   position: relative;
   display: inline-block;
   grid-area: octavo1;
 }
 .octavo2 {
-  margin-top: 80px;
+  margin-top: 90px;
   position: relative;
   display: inline-block;
   grid-area: octavo2;
 }
 .octavo3 {
-  margin-top: 80px;
+  margin-top: 90px;
   position: relative;
   display: inline-block;
   grid-area: octavo3;
 }
 .octavo4 {
-  margin-top: 80px;
+  margin-top: 90px;
   position: relative;
   display: inline-block;
   grid-area: octavo4;
 }
 .cuarto1 {
-  margin-top: 160px;
+  margin-top: 220px;
   position: relative;
   display: inline-block;
   grid-area: cuarto1;
 }
 .cuarto2 {
-  margin-top: 160px;
+  margin-top: 220px;
   position: relative;
   display: inline-block;
   grid-area: cuarto2;
 }
 .semi1 {
-  margin-top: 320px;
+  margin-top: 450px;
   position: relative;
   display: inline-block;
   grid-area: semi1;
 }
 .equipo9 {
+  margin-top: 20px;
   position: relative;
   display: inline-block;
   grid-area: equipo9;
 }
 .equipo10 {
+  margin-top: 20px;
   position: relative;
   display: inline-block;
   grid-area: equipo10;
 }
 .equipo11 {
+  margin-top: 20px;
   position: relative;
   display: inline-block;
   grid-area: equipo11;
 }
 .equipo12 {
+  margin-top: 20px;
   position: relative;
   display: inline-block;
   grid-area: equipo12;
 }
 .equipo13 {
+  margin-top: 20px;
   position: relative;
   display: inline-block;
   grid-area: equipo13;
 }
 .equipo14 {
+  margin-top: 20px;
   position: relative;
   display: inline-block;
   grid-area: equipo14;
 }
 .equipo15 {
+  margin-top: 20px;
   position: relative;
   display: inline-block;
   grid-area: equipo15;
 }
 .equipo16 {
+  margin-top: 20px;
   position: relative;
   display: inline-block;
   grid-area: equipo16;
 }
 .octavo5 {
-  margin-top: 50px;
+  margin-top: 90px;
   position: relative;
   display: inline-block;
   grid-area: octavo5;
 }
 .octavo6 {
-  margin-top: 50px;
+  margin-top: 90px;
   position: relative;
   display: inline-block;
   grid-area: octavo6;
 }
 .octavo7 {
-  margin-top: 50px;
+  margin-top: 90px;
   position: relative;
   display: inline-block;
   grid-area: octavo7;
 }
 .octavo8 {
-  margin-top: 50px;
+  margin-top: 90px;
   position: relative;
   display: inline-block;
   grid-area: octavo8;
 }
 .cuarto3 {
-  margin-top: 140px;
-
+  margin-top: 220px;
   position: relative;
   display: inline-block;
   grid-area: cuarto3;
 }
 .cuarto4 {
-  margin-top: 140px;
-
+  margin-top: 220px;
   position: relative;
   display: inline-block;
   grid-area: cuarto4;
 }
 .semi2 {
-  margin-top: 300px;
+  margin-top: 450px;
   position: relative;
   display: inline-block;
   grid-area: semi2;
