@@ -28,7 +28,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-68%, -50%);
+  transform: translate(-68%, -55%);
 }
 .title {
   font-size: 40px;
