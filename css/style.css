@@ -52,21 +52,18 @@ body {
 }
 .equipo2 {
   margin-top: 20px;
-
   position: relative;
   display: inline-block;
   grid-area: equipo2;
 }
 .equipo3 {
   margin-top: 20px;
-
   position: relative;
   display: inline-block;
   grid-area: equipo3;
 }
 .equipo4 {
   margin-top: 20px;
-
   position: relative;
   display: inline-block;
   grid-area: equipo4;
