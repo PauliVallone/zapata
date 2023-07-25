@@ -14,10 +14,6 @@ body {
   font-family: sans-serif;
 }
 
-.title {
-  font-family: letrajuegazapata;
-}
-
 .video-fondo {
   position: fixed;
   top: 0;
@@ -229,10 +225,9 @@ body {
   height: 100vh;
   width: 100vh;
   display: grid;
-  grid-template-rows: 10px, repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
   grid-template-columns: 150px 130px 130px 130px 130px 130px 130px 130px 150px;
   grid-template-areas:
-    "titulo titulo titulo titulo titulo titulo titulo titulo titulo"
     "equipo1 octavo1 cuarto1 semi1 ganador semi2 cuarto3 octavo5 equipo9"
     "equipo2 octavo1 cuarto1 semi1 ganador semi2 cuarto3 octavo5 equipo10"
     "equipo3 octavo2 cuarto1 semi1 ganador semi2 cuarto3 octavo6 equipo11"
