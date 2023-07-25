@@ -69,21 +69,18 @@ body {
 }
 .equipo5 {
   margin-top: 20px;
-
   position: relative;
   display: inline-block;
   grid-area: equipo5;
 }
 .equipo6 {
   margin-top: 20px;
-
   position: relative;
   display: inline-block;
   grid-area: equipo6;
 }
 .equipo7 {
   margin-top: 20px;
-
   position: relative;
   display: inline-block;
   grid-area: equipo7;
@@ -96,25 +93,25 @@ body {
   grid-area: equipo8;
 }
 .octavo1 {
-  margin-top: 70px;
+  margin-top: 80px;
   position: relative;
   display: inline-block;
   grid-area: octavo1;
 }
 .octavo2 {
-  margin-top: 70px;
+  margin-top: 80px;
   position: relative;
   display: inline-block;
   grid-area: octavo2;
 }
 .octavo3 {
-  margin-top: 70px;
+  margin-top: 80px;
   position: relative;
   display: inline-block;
   grid-area: octavo3;
 }
 .octavo4 {
-  margin-top: 70px;
+  margin-top: 80px;
   position: relative;
   display: inline-block;
   grid-area: octavo4;
